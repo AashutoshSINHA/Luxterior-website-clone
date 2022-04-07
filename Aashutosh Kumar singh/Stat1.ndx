@@ -1,0 +1,34 @@
+ |Msg:Kathmandu LAN.Kathmandu ATM 1-40:ATM Transcation per/min:Manchester LAN.Manchester SERVER:transcmdtokendly:1|      199
+ |Msg:Kathmandu LAN.Ktm Single teller:ATM authorization REQ:Manchester LAN.Manchester SERVER:transcmdtokendly:1|      514
+ |CONFIG:Kathmandu LAN.KTM Token Ring:BusyLevelX:1|      823
+ |CONFIG:Kathmandu LAN.KTM Token Ring:tokendelayX:1|     1023
+ |Msg:Pokhara LAN.Pokhara single teller:ATM authorization REQ:Manchester LAN.Manchester SERVER:transcmdtokendly:1|     1217
+ |Msg:Pokhara LAN.Pokhar ATM 1-40:ATM Transcation per/min:Manchester LAN.Manchester SERVER:transcmdtokendly:1|     1530
+ |CONFIG:Pokhara LAN.PKR Token Ring:BusyLevelX:1|     1835
+ |CONFIG:Pokhara LAN.PKR Token Ring:tokendelayX:1|     2031
+ |CONFIG:Cloud.Kathmandu Acess:BusyLevelX:1|     2221
+ |CONFIG:Cloud.Kathmandu Acess:BusyLevelY:1|     2407
+ |CONFIG:Cloud.Kathmandu Acess:OutBufferLevel:1|     2593
+ |CLDVC:Cloud:KTM- MAN:FrmDelay:1|     2792
+ |CLDVC:Cloud:KTM- MAN:Burst:1|     2953
+ |CLDVC:Cloud:MAN - KTM:FrmDelay:1|     3111
+ |CLDVC:Cloud:MAN - KTM:Burst:1|     3274
+ |CONFIG:Cloud.Manchester Acess:BusyLevelX:1|     3434
+ |CONFIG:Cloud.Manchester Acess:BusyLevelY:1|     3622
+ |CONFIG:Cloud.Manchester Acess:OutBufferLevel:1|     3810
+ |CLDVC:Cloud:PKR- MAN:FrmDelay:1|     4011
+ |CLDVC:Cloud:PKR- MAN:Burst:1|     4172
+ |CLDVC:Cloud:MAN- PKR:FrmDelay:1|     4330
+ |CLDVC:Cloud:MAN- PKR:Burst:1|     4491
+ |CONFIG:Cloud.Pokhara Acess:BusyLevelX:1|     4649
+ |CONFIG:Cloud.Pokhara Acess:BusyLevelY:1|     4831
+ |CONFIG:Cloud.Pokhara Acess:OutBufferLevel:1|     5013
+ |CONFIG:Manchester LAN.MANCHESTER Link:BusyLevelX:1|     5208
+ |CONFIG:Manchester LAN.MANCHESTER Link:BusyLevelY:1|     5412
+ |CONFIG:Manchester LAN.MANCHESTER Link:tokendelayX:1|     5616
+ |CONFIG:Manchester LAN.MANCHESTER Link:tokendelayY:1|     5814
+ |CONFIG:Manchester LAN.MANCHESTER Link:framelevel:1|     6012
+ |CONFIG:Manchester LAN.MANCHESTER Link:framedelay:1|     6225
+ |CONFIG:Manchester LAN.MANCHESTER Link:MultipleCllsns:1|     6422
+ |CONFIG:Manchester LAN.MANCHESTER Link:CllsnsPerFrame:1|     6614
+ |Msg:Manchester LAN.Manchester SERVER:Respond msg::ECHO:transcmdtokendly:1|     6806

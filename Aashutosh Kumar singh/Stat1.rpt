@@ -1,0 +1,166 @@
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     1
+
+                             Aashutosh Kumar singh                              
+
+                         NODES: RECEIVED MESSAGE COUNTS                         
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+      RECEIVER            COUNT                   MESSAGE NAME
+______________________  __________  _________________________________________
+
+Kathmandu LAN.Kathmand        16    ATM Transcation per/min                  
+
+Pokhara LAN.Pokhar ATM        16    ATM Transcation per/min                  
+
+Manchester LAN.Manches       222    ATM Transcation per/min                  
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     2
+
+                             Aashutosh Kumar singh                              
+
+                           LINKS: CHANNEL UTILIZATION                           
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+                             FRAMES           TRANSMISSION DELAY (MS)       %
+LINK                   DELIVERED RST/ERR  AVERAGE    STD DEV    MAXIMUM   UTIL
+_____________________  _________ ______  _________  _________  _________  _____
+
+Kathmandu LAN.KTM Toke     12211      0      0.036      0.011      0.082 0.3615
+Pokhara LAN.PKR Token      12199      0      0.036      0.012      0.082 0.3617
+Manchester LAN.MANCHES      5084      0      0.065      0.013      0.136 0.2567
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     3
+
+                             Aashutosh Kumar singh                              
+
+                             LINKS: COLLISION STATS                             
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+
+LINK NAME                 Manchester
+                          LAN.MANCHE
+                          STER Link 
+
+ACCESS PROTOCOL              CSMA/CD
+
+COLLISION EPISODES                 0
+
+COLLIDED FRAMES                    0
+
+NBR OF TRIES TO RESOLVE
+  AVERAGE                       0.00
+  STANDARD DEVIATION            0.00
+  MAXIMUM                          0
+
+NBR OF DEFERRALS                   0
+
+DEFERRAL DELAY  (MS)
+  AVERAGE                       0.00
+  STANDARD DEVIATION            0.00
+  MAXIMUM                       0.00
+
+DEFERRAL QUEUE SIZE  (FRAMES)
+  AVERAGE                       0.00
+  STANDARD DEVIATION            0.00
+  MAXIMUM                          0
+
+MULTIPLE COLLISION EPISODES
+  NBR EPISODES                     0
+  AVG PER EPISODE               0.00
+  MAX PER EPISODE                  0
+
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     4
+
+                             Aashutosh Kumar singh                              
+
+                         WAN CLOUDS: FRAME DELAY BY VC                          
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+CLOUD:                      FRAME DELAY (MS)               BURST SIZE (kb)
+  VC                      AVG      STD      MAX           AVG           MAX
+______________________  _______  _______  _______    ____________  ____________
+
+Cloud
+  KTM- MAN               106854    30678   160360              22            52
+  MAN - KTM                  65       12      143               3             7
+  PKR- MAN               107398    30947   160322              22            55
+  MAN- PKR                   65       11      145               3             7
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     5
+
+                             Aashutosh Kumar singh                              
+
+                         WAN CLOUDS: FRAME COUNTS BY VC                         
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+CLOUD:                                    FRAMES / KILOBITS
+  VC:  FRAMES                    ACCEPTED                     DROPPED
+       KILOBITS            NORMAL          DE           NORMAL          DE
+______________________  ____________  ____________   ____________  ____________
+
+Cloud                   (TOTAL KILOBITS TRANSMITTED =         1783 )
+  KTM- MAN         Frm          1218             0              0             0
+                    kb           463             0              0             0
+  MAN - KTM        Frm          1332             0              0             0
+                    kb           434             0              0             0
+  PKR- MAN         Frm          1213             0              0             0
+                    kb           456             0              0             0
+  MAN- PKR         Frm          1321             0              0             0
+                    kb           430             0              0             0
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     6
+
+                             Aashutosh Kumar singh                              
+
+                         WAN CLOUDS: ACCESS LINK STATS                          
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+CLOUD:                            FRAMES            BUFFER (BYTES)       % UTIL
+  ACCESS LINK  (ENTRY)     ACCEPTED    DROPPED    MAX     AVG     STD          
+               (EXIT)                                                          
+________________________  __________  _________  ______  ______  ______  ______
+
+Cloud
+  Kathmandu Acess  Entry       10881          0    N/A     N/A     N/A    77.48
+                    Exit        1333          0     181      22      25   48.79
+  Manchester Acess Entry        2653          0    N/A     N/A     N/A    16.65
+                    Exit       21758          0 1394253  928792  267606  100.00
+  Pokhara Acess    Entry       10877          0    N/A     N/A     N/A    77.61
+                    Exit        1320          0     172      21      25   48.38
+
+
+Compuware COMNET III  Release 2.5.2.814  Sat Dec 04 12:25:13 2021   PAGE     7
+
+                             Aashutosh Kumar singh                              
+
+                   MESSAGE + RESPONSE SOURCES: MESSAGE DELAY                    
+
+                    REPLICATION 1 FROM 60.0 TO 180.0 SECONDS                    
+
+ORIGIN / MSG SRC NAME:  MESSAGES                 MESSAGE DELAY 
+  DESTINATION LIST      ASSEMBLED      AVERAGE       STD DEV       MAXIMUM
+______________________  _________   ____________  ____________  ____________
+
+Kathmandu LAN.Kathmandu ATM 1-40 / src ATM Transcation per/min:
+  Manchester LAN.Manch         16   119.26659 S   33798.192 MS  176.84354 S 
+Kathmandu LAN.Ktm Single teller / src ATM authorization REQ:
+  Manchester LAN.Manch          0       0.000 MS      0.000 MS      0.000 MS
+Pokhara LAN.Pokhara single teller / src ATM authorization REQ:
+  Manchester LAN.Manch          0       0.000 MS      0.000 MS      0.000 MS
+Pokhara LAN.Pokhar ATM 1-40 / src ATM Transcation per/min:
+  Manchester LAN.Manch         17   119.05597 S   36073.946 MS  179.61303 S 
+Manchester LAN.Manchester SERVER / src Respond msg:
+  ECHO                          0       0.000 MS      0.000 MS      0.000 MS
